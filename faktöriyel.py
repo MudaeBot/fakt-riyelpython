@@ -1,12 +1,12 @@
 
 while True:
-    guess=int(input("Bır sayı gir"))
+    guess=int(input("What's your num?"))
     if guess<0:
-        print("Lütfen pozitif tam sayı girin.")
+        print("It must be an ınteger")
         continue
     else:
         break
-toplam=1
+total=1
 for i in range(1,guess+1):
-    toplam*=i
-print(f"{guess}! = :{toplam}")
+    total*=i
+print(f"{guess}! = :{total}")
